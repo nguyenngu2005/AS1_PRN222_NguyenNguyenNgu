@@ -1,0 +1,87 @@
+@model IEnumerable<Repositories.Models.NewsArticle>
+@{
+    ViewData["Title"] = "Lịch sử bài viết của tôi";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-primary">Lịch sử bài viết của tôi</h2>
+        <a asp-action="Index" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left"></i> Quay lại quản lý bài viết
+        </a>
+    </div>
+
+    <form asp-action="History" method="get" class="mb-3">
+        <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-search"></i></span>
+            <input type="text" name="keyword" class="form-control" placeholder="Tìm theo mã, tiêu đề, nội dung, nguồn, danh mục, tag..." value="@ViewBag.Keyword" />
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+            <a asp-action="History" class="btn btn-outline-secondary">Làm mới</a>
+        </div>
+    </form>
+
+    <div class="card shadow-sm">
+        <div class="card-body p-0 table-responsive">
+            <table class="table table-hover table-bordered mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Mã bài</th>
+                        <th>Tiêu đề</th>
+                        <th>Danh mục</th>
+                        <th>Tags</th>
+                        <th>Ngày tạo</th>
+                        <th>Ngày cập nhật</th>
+                        <th class="text-center">Trạng thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="fw-semibold">@item.NewsArticleId</td>
+                                <td>
+                                    <div class="fw-bold">@item.NewsTitle</div>
+                                    <small class="text-muted">@item.Headline</small>
+                                </td>
+                                <td>@(item.Category?.CategoryName ?? "N/A")</td>
+                                <td>
+                                    @if (item.Tags != null && item.Tags.Any())
+                                    {
+                                        foreach (var tag in item.Tags)
+                                        {
+                                            <span class="badge bg-info text-dark me-1">@tag.TagName</span>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Không có tag</span>
+                                    }
+                                </td>
+                                <td>@(item.CreatedDate?.ToString("dd/MM/yyyy HH:mm"))</td>
+                                <td>@(item.ModifiedDate?.ToString("dd/MM/yyyy HH:mm") ?? "Chưa cập nhật")</td>
+                                <td class="text-center">
+                                    @if (item.NewsStatus == true)
+                                    {
+                                        <span class="badge bg-success">Published</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-warning text-dark">Draft</span>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-muted py-4">Bạn chưa tạo bài viết nào.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

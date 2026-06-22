@@ -96,9 +96,14 @@
                         <span>News Categories</span>
                     </a>
                     
-                    <a href="/NewsArticle/Index" class="sidebar-link @(currentController == "NewsArticle" ? "active" : "")">
+                    <a href="/NewsArticle/Index" class="sidebar-link @(currentController == "NewsArticle" && currentAction == "Index" ? "active" : "")">
                         <i class="bi bi-journal-text"></i>
                         <span>News Articles</span>
+                    </a>
+
+                    <a href="/NewsArticle/History" class="sidebar-link @(currentController == "NewsArticle" && currentAction == "History" ? "active" : "")">
+                        <i class="bi bi-clock-history"></i>
+                        <span>My News History</span>
                     </a>
                 }
 

@@ -14,12 +14,16 @@ namespace NguyenNguyenNguMVC.Controllers
             _categoryService = categoryService;
         }
 
+        private bool IsStaff()
+        {
+            return HttpContext.Session.GetInt32("Role") == 1;
+        }
+
         // GET: Hiển thị danh sách và Tìm kiếm
         public IActionResult Index(string keyword)
         {
-            // Kiểm tra phân quyền: Chỉ cho phép Staff (1) hoặc Admin (0)
-            int? role = HttpContext.Session.GetInt32("Role");
-            if (role != 1 && role != 0)
+            // Kiểm tra phân quyền: chỉ Staff được quản lý Category theo đề bài.
+            if (!IsStaff())
             {
                 return RedirectToAction("Index", "Login");
             }
@@ -33,6 +37,11 @@ namespace NguyenNguyenNguMVC.Controllers
         [HttpPost]
         public IActionResult Create(Category category)
         {
+            if (!IsStaff())
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
             if (ModelState.IsValid)
             {
                 _categoryService.AddCategory(category);
@@ -49,6 +58,11 @@ namespace NguyenNguyenNguMVC.Controllers
         [HttpPost]
         public IActionResult Edit(Category category)
         {
+            if (!IsStaff())
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
             if (ModelState.IsValid)
             {
                 _categoryService.UpdateCategory(category);
@@ -65,6 +79,11 @@ namespace NguyenNguyenNguMVC.Controllers
         [HttpPost]
         public IActionResult Delete(short id)
         {
+            if (!IsStaff())
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
             bool isDeleted = _categoryService.DeleteCategory(id);
             if (isDeleted)
             {

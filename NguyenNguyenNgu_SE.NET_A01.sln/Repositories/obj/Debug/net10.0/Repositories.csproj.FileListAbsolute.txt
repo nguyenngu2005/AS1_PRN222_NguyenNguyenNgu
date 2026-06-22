@@ -1,0 +1,44 @@
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\bin\Debug\net10.0\Repositories.deps.json
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\bin\Debug\net10.0\Repositories.runtimeconfig.json
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\bin\Debug\net10.0\Repositories.dll
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\bin\Debug\net10.0\Repositories.pdb
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\Repositories.csproj.AssemblyReference.cache
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\Repositories.AssemblyInfoInputs.cache
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\Repositories.AssemblyInfo.cs
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\Repositories.csproj.CoreCompileInputs.cache
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\Repositories.dll
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\refint\Repositories.dll
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\Repositories.pdb
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\Repositories.genruntimeconfig.cache
+E:\Coding IDE\Back-end\Microsoft Visual Studio\source\Repositories\obj\Debug\net10.0\ref\Repositories.dll
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\bin\Debug\net10.0\Repositories.deps.json
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\bin\Debug\net10.0\Repositories.runtimeconfig.json
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\bin\Debug\net10.0\Repositories.dll
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\bin\Debug\net10.0\Repositories.pdb
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.csproj.AssemblyReference.cache
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.AssemblyInfoInputs.cache
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.AssemblyInfo.cs
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.csproj.CoreCompileInputs.cache
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.sourcelink.json
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.dll
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\refint\Repositories.dll
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.pdb
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\Repositories.genruntimeconfig.cache
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\Repositories\obj\Debug\net10.0\ref\Repositories.dll
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\bin\Debug\net10.0\Repositories.deps.json
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\bin\Debug\net10.0\Repositories.runtimeconfig.json
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\bin\Debug\net10.0\Repositories.dll
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\bin\Debug\net10.0\Repositories.pdb
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.csproj.AssemblyReference.cache
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.AssemblyInfoInputs.cache
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.AssemblyInfo.cs
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.csproj.CoreCompileInputs.cache
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.sourcelink.json
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.dll
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\refint\Repositories.dll
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.pdb
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\Repositories.genruntimeconfig.cache
+E:\FPT_Uni-Software_Document-Tools\Summer2026\AS1_PRN222_NguyenNguyenNgu\NguyenNguyenNgu_SE.NET_A01.sln\Repositories\obj\Debug\net10.0\ref\Repositories.dll

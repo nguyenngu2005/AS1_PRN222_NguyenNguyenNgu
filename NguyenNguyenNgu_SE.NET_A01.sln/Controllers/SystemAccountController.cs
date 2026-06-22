@@ -18,13 +18,16 @@ namespace NguyenNguyenNguMVC.Controllers
             _newsArticleService = newsArticleService;
         }
 
+        private bool IsAdmin()
+        {
+            return HttpContext.Session.GetInt32("Role") == 0;
+        }
+
         // GET: Giao diện tạo báo cáo thống kê
         public IActionResult Report(System.DateTime? startDate, System.DateTime? endDate)
         {
             // Bảo mật: Chỉ Admin mới được xem
-            int? role = HttpContext.Session.GetInt32("AccountId"); // Hoặc dùng key "Role" tùy cấu hình phân quyền của em
-            int? realRole = HttpContext.Session.GetInt32("Role");
-            if (realRole != 0) return RedirectToAction("Index", "Login");
+            if (!IsAdmin()) return RedirectToAction("Index", "Login");
 
             var reportData = new List<NewsArticle>();
 
@@ -43,16 +46,16 @@ namespace NguyenNguyenNguMVC.Controllers
             return View(reportData);
         }
         // GET: Hiển thị danh sách tài khoản
-        public IActionResult Index()
+        public IActionResult Index(string keyword)
         {
             // Bảo mật: Chỉ cho phép Admin (Role = 0) truy cập
-            int? role = HttpContext.Session.GetInt32("Role");
-            if (role != 0)
+            if (!IsAdmin())
             {
                 return RedirectToAction("Index", "Login");
             }
 
-            var accounts = _accountService.GetAccounts();
+            ViewBag.Keyword = keyword;
+            var accounts = _accountService.SearchAccounts(keyword);
             return View(accounts);
         }
 
@@ -61,6 +64,11 @@ namespace NguyenNguyenNguMVC.Controllers
         [HttpPost]
         public IActionResult Create(SystemAccount account)
         {
+            if (!IsAdmin())
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
             try
             {
                 // 1. Bắt lỗi trùng ID
@@ -99,6 +107,11 @@ namespace NguyenNguyenNguMVC.Controllers
         [HttpPost]
         public IActionResult Edit(SystemAccount account)
         {
+            if (!IsAdmin())
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
             try
             {
                 // Bắt lỗi trùng Email (Trường hợp họ đổi sang một Email đã có sẵn của người khác)
@@ -133,8 +146,13 @@ namespace NguyenNguyenNguMVC.Controllers
         [HttpPost]
         public IActionResult Delete(short id)
         {
+            if (!IsAdmin())
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
             // Bảo mật bổ sung: Không cho phép Admin tự xóa chính mình dựa trên Session id
-            int? currentAdminId = HttpContext.Session.GetInt32("AccountID");
+            int? currentAdminId = HttpContext.Session.GetInt32("AccountId");
             if (currentAdminId.HasValue && currentAdminId.Value == id)
             {
                 TempData["Error"] = "Bạn không thể tự xóa tài khoản Admin đang đăng nhập!";

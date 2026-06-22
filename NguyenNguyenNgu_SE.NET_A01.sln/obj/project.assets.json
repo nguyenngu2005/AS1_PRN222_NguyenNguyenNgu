@@ -3107,13 +3107,13 @@
     },
     "Repositories/1.0.0": {
       "type": "project",
-      "path": "../Repositories/Repositories.csproj",
-      "msbuildProject": "../Repositories/Repositories.csproj"
+      "path": "Repositories/Repositories.csproj",
+      "msbuildProject": "Repositories/Repositories.csproj"
     },
     "Services/1.0.0": {
       "type": "project",
-      "path": "../Services/Services.csproj",
-      "msbuildProject": "../Services/Services.csproj"
+      "path": "Services/Services.csproj",
+      "msbuildProject": "Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3132,11 +3132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Coding IDE\\Back-end\\Microsoft Visual Studio\\source\\NguyenNguyenNgu_SE.NET_A01.sln\\NguyenNguyenNguMVC.csproj",
+      "projectUniqueName": "E:\\FPT_Uni-Software_Document-Tools\\Summer2026\\AS1_PRN222_NguyenNguyenNgu\\NguyenNguyenNgu_SE.NET_A01.sln\\NguyenNguyenNguMVC.csproj",
       "projectName": "NguyenNguyenNguMVC",
-      "projectPath": "E:\\Coding IDE\\Back-end\\Microsoft Visual Studio\\source\\NguyenNguyenNgu_SE.NET_A01.sln\\NguyenNguyenNguMVC.csproj",
+      "projectPath": "E:\\FPT_Uni-Software_Document-Tools\\Summer2026\\AS1_PRN222_NguyenNguyenNgu\\NguyenNguyenNgu_SE.NET_A01.sln\\NguyenNguyenNguMVC.csproj",
       "packagesPath": "C:\\Users\\boyku\\.nuget\\packages\\",
-      "outputPath": "E:\\Coding IDE\\Back-end\\Microsoft Visual Studio\\source\\NguyenNguyenNgu_SE.NET_A01.sln\\obj\\",
+      "outputPath": "E:\\FPT_Uni-Software_Document-Tools\\Summer2026\\AS1_PRN222_NguyenNguyenNgu\\NguyenNguyenNgu_SE.NET_A01.sln\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Coding IDE\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3158,11 +3158,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "E:\\Coding IDE\\Back-end\\Microsoft Visual Studio\\source\\Repositories\\Repositories.csproj": {
-              "projectPath": "E:\\Coding IDE\\Back-end\\Microsoft Visual Studio\\source\\Repositories\\Repositories.csproj"
+            "E:\\FPT_Uni-Software_Document-Tools\\Summer2026\\AS1_PRN222_NguyenNguyenNgu\\NguyenNguyenNgu_SE.NET_A01.sln\\Repositories\\Repositories.csproj": {
+              "projectPath": "E:\\FPT_Uni-Software_Document-Tools\\Summer2026\\AS1_PRN222_NguyenNguyenNgu\\NguyenNguyenNgu_SE.NET_A01.sln\\Repositories\\Repositories.csproj"
             },
-            "E:\\Coding IDE\\Back-end\\Microsoft Visual Studio\\source\\Services\\Services.csproj": {
-              "projectPath": "E:\\Coding IDE\\Back-end\\Microsoft Visual Studio\\source\\Services\\Services.csproj"
+            "E:\\FPT_Uni-Software_Document-Tools\\Summer2026\\AS1_PRN222_NguyenNguyenNgu\\NguyenNguyenNgu_SE.NET_A01.sln\\Services\\Services.csproj": {
+              "projectPath": "E:\\FPT_Uni-Software_Document-Tools\\Summer2026\\AS1_PRN222_NguyenNguyenNgu\\NguyenNguyenNgu_SE.NET_A01.sln\\Services\\Services.csproj"
             }
           }
         }
@@ -3220,7 +3220,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

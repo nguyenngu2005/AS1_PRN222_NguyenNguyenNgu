@@ -13,6 +13,9 @@ builder.Services.AddScoped<Services.ICategoryService, Services.CategoryService>(
 // Đăng ký cho NewsArticle
 builder.Services.AddScoped<Repositories.Repositories.INewsArticleRepository, Repositories.Repositories.NewsArticleRepository>();
 builder.Services.AddScoped<Services.INewsArticleService, Services.NewsArticleService>();
+// Đăng ký cho Tag
+builder.Services.AddScoped<Repositories.Repositories.ITagRepository, Repositories.Repositories.TagRepository>();
+builder.Services.AddScoped<Services.ITagService, Services.TagService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

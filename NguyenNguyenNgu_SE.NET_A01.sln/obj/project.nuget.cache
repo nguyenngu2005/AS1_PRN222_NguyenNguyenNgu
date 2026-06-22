@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8QOV+hdB858=",
+  "dgSpecHash": "N1N7/m8JQjc=",
   "success": true,
-  "projectFilePath": "E:\\Coding IDE\\Back-end\\Microsoft Visual Studio\\source\\NguyenNguyenNgu_SE.NET_A01.sln\\NguyenNguyenNguMVC.csproj",
+  "projectFilePath": "E:\\FPT_Uni-Software_Document-Tools\\Summer2026\\AS1_PRN222_NguyenNguyenNgu\\NguyenNguyenNgu_SE.NET_A01.sln\\NguyenNguyenNguMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\boyku\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\boyku\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
